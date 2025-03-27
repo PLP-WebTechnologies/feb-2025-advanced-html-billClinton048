@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html elements</title>
+</head>
+<body>
+    <h1>
+        HTML5 Implementation 
+    </h1>
+
+
+    <h2>
+        Odered List
+    </h2>
+    <!-- Ordered List -->
+    <ol type="I">
+        <li>Introduction to HTML</li>
+        <li>HTML Elements</li>
+        <li>Forms and Input Fields</li>
+        <li>Tables and Lists</li>
+        <li>Multimedia Elements</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="https://www.pexels.com/photo/1234567/download" alt="Sample Image from Pexels" width="500">
+
+    <h2>Contact List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, NY</td>
+            <td>01234567890</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Elm St, CA</td>
+            <td>07987654321</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Johnson</td>
+            <td>789 Oak St, TX</td>
+            <td>01122334455</td>
+            <td>mike@example.com</td>
+        </tr>
+        <tr>
+            <td>Sarah Lee</td>
+            <td>321 Pine St, FL</td>
+            <td>02233445566</td>
+            <td>sarah@example.com</td>
+        </tr>
+        <tr>
+            <td>Chris Brown</td>
+            <td>654 Cedar St, WA</td>
+            <td>01344556677</td>
+            <td>chris@example.com</td>
+        </tr>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="Coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="Music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
